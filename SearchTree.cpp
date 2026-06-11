@@ -56,3 +56,4 @@ class BinaryTree
             parent->rightchild = newNode;
         }
     }
+    
