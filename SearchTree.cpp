@@ -105,3 +105,13 @@ class BinaryTree
             preorder(ptr->rightchild);
         }
     }
+
+    void postorder(Node *ptr)
+    {
+        if (ROOT == NULL)
+        {
+            cout << "Tree is empty" << endl;
+            return;
+        }
+
+    }
